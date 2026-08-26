@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>我的生信学习笔记</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 我的生信学习笔记</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Aug 2026 18:04:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我的生信学习博客正式开始</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Wed, 26 Aug 2026 18:04:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>&lt;h1 id=&#34;我的生信学习博客&#34;&gt;我的生信学习博客&lt;/h1&gt;
+&lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
+&lt;p&gt;以后我会在这里记录：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R语言&lt;/li&gt;
+&lt;li&gt;单细胞RNA测序&lt;/li&gt;
+&lt;li&gt;Seurat&lt;/li&gt;
+&lt;li&gt;代谢组学&lt;/li&gt;
+&lt;li&gt;生物信息学&lt;/li&gt;
+&lt;li&gt;科研学习笔记&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>nCount_RNA 到底是什么？</title>
+      <link>http://localhost:1313/posts/ncount-rna/</link>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ncount-rna/</guid>
+      <description>理解 Seurat 中 nCount_RNA 和 nFeature_RNA 的含义及区别。</description>
+    </item>
+    <item>
+      <title>关于我</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我&lt;/h1&gt;
+&lt;p&gt;这里是我的个人生信学习博客。&lt;/p&gt;
+&lt;h2 id=&#34;学习方向&#34;&gt;学习方向&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;R语言&lt;/li&gt;
+&lt;li&gt;生物信息学&lt;/li&gt;
+&lt;li&gt;单细胞RNA测序&lt;/li&gt;
+&lt;li&gt;Seurat&lt;/li&gt;
+&lt;li&gt;代谢组学&lt;/li&gt;
+&lt;li&gt;脂质组学&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;为什么建立这个博客&#34;&gt;为什么建立这个博客？&lt;/h2&gt;
+&lt;p&gt;记录自己的学习过程，也希望把复杂的生物信息学知识用简单的方式整理下来。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

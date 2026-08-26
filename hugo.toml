@@ -1,0 +1,75 @@
+baseURL = 'http://localhost:1313/'
+title = '我的生信学习笔记'
+theme = 'PaperMod'
+
+[params]
+  env = 'development'
+  title = '我的生信学习笔记'
+  description = '记录 R 语言、生物信息学、单细胞 RNA-seq、代谢组学与科研学习。'
+  author = '你的名字'
+
+  defaultTheme = 'auto'
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = false
+
+[params.assets]
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon.ico"
+  favicon32x32 = "/favicon.ico"
+  apple_touch_icon = "/favicon.ico"
+
+[params.profileMode]
+  enabled = true
+  title = '我的生信学习笔记'
+  subtitle = 'R · Bioinformatics · scRNA-seq'
+  imageUrl = 'dog1.jpg'
+  imageTitle = '我的头像'
+  imageWidth = 225
+  imageHeight = 225
+
+[params.homeInfoParams]
+  Title = '🧬 我的生信学习笔记'
+  Content = '''
+从 R 语言开始，记录我的生物信息学学习之路。
+
+📊 R语言  
+🧬 单细胞 RNA-seq  
+🔬 Seurat  
+🧪 代谢组学 / 脂质组学  
+📚 科研与文献阅读
+'''
+
+[[menu.main]]
+  identifier = 'posts'
+  name = '文章'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'categories'
+  name = '分类'
+  url = '/categories/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'tags'
+  name = '标签'
+  url = '/tags/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'about'
+  name = '关于我'
+  url = '/about/'
+  weight = 40
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
