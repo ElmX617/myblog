@@ -15,9 +15,9 @@ description = "单细胞分析单样本的流程细节及代码函数解释"
 
 原始测序结果raw data导入R环境，以后续Seurat分析。
 
-10xGenomics Chromium scRNA-seq是单细胞领域最常见的平台
+10xGenomics Chromium scRNA-seq是单细胞领域最常见的测序平台
 
-单细胞测序产生的原始数据不是一个Seurat对象，而是一堆文件，例如
+单细胞测序产生的原始数据不是Seurat对象，是文件集合，例如有
 
 barcodes.tsv.gz，是细胞条形码cell barcode，每个细胞条形码不同——多少细胞就有多少barcode
 
@@ -34,12 +34,12 @@ UMI 是一小段随机的核苷酸序列（比如由10-12 个随机碱基组成�
 首先读取10x数据
 
 ```r
-scRNA.counts <- Read10X（data.dir = ""）
+scRNA.counts <- Read10X（data.dir = "C:/Users/29133/Desktop/Source/GSE152048_BC21.matrix/BC21"）
 ```
 
 得到dgCMatrix稀疏矩阵，例如20000genes × 5000cell
 
-![读取后的文件内容](myblog/singlerna1photo/singlerna1photo1.png)
+![读取后的文件内容](/singlerna1photo/singlerna1photo1.png)
 
 
 > 一
