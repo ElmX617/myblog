@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Seurat on 我的生信学习笔记</title>
-    <link>http://localhost:1313/tags/seurat/</link>
+    <link>//localhost:1313/tags/seurat/</link>
     <description>Recent content in Seurat on 我的生信学习笔记</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/seurat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/seurat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>nCount_RNA 到底是什么？</title>
-      <link>http://localhost:1313/posts/ncount-rna/</link>
+      <link>//localhost:1313/posts/ncount-rna/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ncount-rna/</guid>
+      <guid>//localhost:1313/posts/ncount-rna/</guid>
       <description>理解 Seurat 中 nCount_RNA 和 nFeature_RNA 的含义及区别。</description>
     </item>
   </channel>
