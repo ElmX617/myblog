@@ -2,47 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>我的生信学习笔记</title>
-    <link>//localhost:1313/</link>
+    <link>https://elmX617.github.io/myblog/</link>
     <description>Recent content on 我的生信学习笔记</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 18:04:32 +0800</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://elmX617.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的生信学习博客正式开始</title>
-      <link>//localhost:1313/posts/hello/</link>
+      <title>单细胞分析单样本分析流程</title>
+      <link>https://elmX617.github.io/myblog/posts/singlerna1/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://elmX617.github.io/myblog/posts/singlerna1/</guid>
+      <description>单细胞分析单样本的流程细节及代码函数解释</description>
+    </item>
+    <item>
+      <title>榆下墨寒书的生信学习博客</title>
+      <link>https://elmX617.github.io/myblog/posts/hello/</link>
       <pubDate>Wed, 26 Aug 2026 18:04:32 +0800</pubDate>
-      <guid>//localhost:1313/posts/hello/</guid>
-      <description>&lt;h1 id=&#34;我的生信学习博客&#34;&gt;我的生信学习博客&lt;/h1&gt;
+      <guid>https://elmX617.github.io/myblog/posts/hello/</guid>
+      <description>&lt;h1 id=&#34;my-bioinformatics-learning-blog&#34;&gt;My Bioinformatics Learning Blog&lt;/h1&gt;
 &lt;p&gt;这是我的第一篇博客。&lt;/p&gt;
-&lt;p&gt;以后我会在这里记录：&lt;/p&gt;
+&lt;p&gt;以后我会在这里记录科研笔记：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R语言&lt;/li&gt;
-&lt;li&gt;单细胞RNA测序&lt;/li&gt;
 &lt;li&gt;Seurat&lt;/li&gt;
+&lt;li&gt;单细胞RNA测序&lt;/li&gt;
 &lt;li&gt;代谢组学&lt;/li&gt;
-&lt;li&gt;生物信息学&lt;/li&gt;
-&lt;li&gt;科研学习笔记&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>nCount_RNA 到底是什么？</title>
-      <link>//localhost:1313/posts/ncount-rna/</link>
+      <title>脂质代谢组学</title>
+      <link>https://elmX617.github.io/myblog/posts/zzdx1/</link>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/ncount-rna/</guid>
-      <description>理解 Seurat 中 nCount_RNA 和 nFeature_RNA 的含义及区别。</description>
+      <guid>https://elmX617.github.io/myblog/posts/zzdx1/</guid>
+      <description>脂肪代谢</description>
     </item>
     <item>
-      <title>关于我</title>
-      <link>//localhost:1313/about/</link>
+      <title>榆下墨寒书</title>
+      <link>https://elmX617.github.io/myblog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;关于我&#34;&gt;关于我&lt;/h1&gt;
+      <guid>https://elmX617.github.io/myblog/about/</guid>
+      <description>&lt;h1 id=&#34;关于我elminkc&#34;&gt;关于我——Elminkc&lt;/h1&gt;
 &lt;p&gt;这里是我的个人生信学习博客。&lt;/p&gt;
-&lt;h2 id=&#34;学习方向&#34;&gt;学习方向&lt;/h2&gt;
+&lt;h2 id=&#34;目前学习方向&#34;&gt;目前学习方向&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;R语言&lt;/li&gt;
-&lt;li&gt;生物信息学&lt;/li&gt;
 &lt;li&gt;单细胞RNA测序&lt;/li&gt;
 &lt;li&gt;Seurat&lt;/li&gt;
 &lt;li&gt;代谢组学&lt;/li&gt;
