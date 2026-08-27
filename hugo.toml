@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = '/'
 title = '我的生信学习笔记'
 theme = 'PaperMod'
 
