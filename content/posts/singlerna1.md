@@ -33,6 +33,7 @@ UMI 是一小段随机的核苷酸序列（比如由10-12 个随机碱基组成�
 
 首先读取10x数据scRNA.counts <- Read10X（data.dir = "路径"）,得到dgCMatrix稀疏矩阵，例如20000genes × 5000cell
 
+![读取后的文件内容](static/singlerna1photo/singlerna1photo1.png)
 
 ## nCount_RNA
 
