@@ -3,7 +3,7 @@ title = "榆下墨寒书"
 draft = false
 +++
 
-# 关于我——Elminkc榆下墨寒书
+# 关于我——Elminkc
 
 这里是我的个人生信学习博客。
 
