@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://elmX617.github.io/myblog/'
 title = '我的生信学习笔记'
 theme = 'PaperMod'
 
