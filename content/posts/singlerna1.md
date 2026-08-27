@@ -31,44 +31,22 @@ UMI 是一小段随机的核苷酸序列（比如由10-12 个随机碱基组成�
 
 下载并加载Seurat包
 
-首先读取10x数据scRNA.counts <- Read10X（data.dir = "路径"）,得到dgCMatrix稀疏矩阵，例如20000genes × 5000cell
+首先读取10x数据
 
-![读取后的文件内容](/singlerna1photo/singlerna1photo1.png)
+```r
+scRNA.counts <- Read10X（data.dir = ""）
+```
 
-## nCount_RNA
+得到dgCMatrix稀疏矩阵，例如20000genes × 5000cell
 
-nCount_RNA 表示一个细胞检测到的 RNA 总量。
+![读取后的文件内容](myblog/singlerna1photo/singlerna1photo1.png)
 
-简单来说，就是：
 
-> 一个细胞中所有基因对应的 UMI 数量之和。
+> 一
 
-## nFeature_RNA
+**n
 
-nFeature_RNA 表示：
-
-> 一个细胞中检测到的基因数量。
-
-因此：
-
-**nCount_RNA ≈ RNA/UMI总量**
-
-**nFeature_RNA ≈ 检测到的基因种类数**
-
-## 两者的区别
-
-一个细胞可能：
-
-- nCount_RNA 很高
-- nFeature_RNA 也很高
-
-说明这个细胞通常具有较高的 RNA 捕获量。
-
-但是如果：
-
-nCount_RNA 特别高，
-
-就需要考虑是否存在 doublet 等情况。
+- n
 
 ```r
 scRNA <- NormalizeData(scRNA)
